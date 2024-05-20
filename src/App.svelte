@@ -42,18 +42,13 @@
     place-items: center;
     margin-top: 310px;
   }
-  main {
-		padding: 1em;
-		margin: 0 auto;
-	}
-	
-    .logo{
+  .logo{
         width: 65px;
 		position: fixed;
 		margin: -5px 5px;
         
     }
-	
+    
 	h2{
 		text-transform: uppercase;
 	}
@@ -143,13 +138,8 @@
 		font-weight: 500;
 		border-radius: 20px;
 	  }
-	  @media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
-	@media (max-width: 640px) {
-		.upgrade{
+    @media (max-width: 640px) {
+      .upgrade{
 			position: fixed;
 			right: 20px;
 			font-size: 15px;
@@ -171,5 +161,5 @@
 		width: 55px;
 		}
 		
-	}
+    }
 </style>

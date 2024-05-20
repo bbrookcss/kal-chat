@@ -27,7 +27,7 @@
             {#if name === ''}
             <div>
                 <h3>KAL</h3>
-                <h4>Hi Nahom, What can I help you with right now ?</h4>
+                <h4>Hi Nahom, What can I help you with right now, Nahom?</h4>
                 
             </div>
             {:else}
@@ -67,8 +67,7 @@
 		position: relative;
 		display: grid;
 	  }
-	  
-	  .maincontener div {
+      .maincontener div {
 		display: grid;
 		flex-direction: row-reverse;
 		align-items: center;
@@ -208,7 +207,7 @@
 		backdrop-filter: blur(5px);
 		background-color:  rgba(26, 93, 227, 0.2);
 	}
-	h1{
+    h1{
 		font-weight: 230;
 		font-size: 33px;
 		bottom: 18px;
@@ -224,10 +223,8 @@
 		width: 60px;
 		height: 60px;
 	}
-
-
-    @media (min-width: 640px) {
-        .inputfiled button{
+    @media (max-width: 640px) {
+		.inputfiled button{
 			font-size: 25px;
 			font-weight: 150;
 			height: 55px;
@@ -295,5 +292,5 @@
 			font-weight: 400;
 			background-image: linear-gradient( rgb(37, 53, 144) 10px, rgb(19, 27, 80) );
 		}
-    }
+	}
 </style>
