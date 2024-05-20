@@ -1,0 +1,10 @@
+body{
+    background-image: linear-gradient(rgb(7, 7, 40),black 60%);
+	margin: 0;
+	color: #5c9ce9;
+	padding: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+  }
